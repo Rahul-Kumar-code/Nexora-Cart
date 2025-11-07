@@ -68,7 +68,7 @@ npm run dev
 `backend/.env`
 ```
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/nexora_cart
+MONGO_URI=mongodb://...
 CLIENT_ORIGIN=http://localhost:5173
 REQUIRE_DATABASE=false
 ```
@@ -114,7 +114,8 @@ Responses are wrapped in `{ data, message? }` with errors surfaced as `{ error, 
 
 - ![Products Grid](docs/screenshots/products.png)
 - ![Cart Flow](docs/screenshots/cart.png)
-- ![Checkout Receipt](docs/screenshots/receipt.png)
+- ![Checkout](docs/screenshots/checkout.png)
+- ![Receipt](docs/screenshots/receipt.png)
 
 ## Bonus Implementation
 
